@@ -4,7 +4,7 @@ interface ActionResult {
 }
 
 interface LoginResult {
-  ok: boolean;
+  email: string;
   error_message?: string;
   token?: string;
 }
