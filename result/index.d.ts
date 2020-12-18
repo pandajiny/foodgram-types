@@ -1,10 +1,9 @@
 interface ActionResult {
   ok: boolean;
-  message: string;
+  error_message?: string;
+  message?: string;
 }
 
 interface LoginResult {
-  email: string;
-  error_message?: string;
-  token?: string;
+  token: string;
 }
