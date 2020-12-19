@@ -33,6 +33,7 @@ interface SavePlaceRequestBody {
   lat: number;
   lng: number;
   name: string;
+  placeId: string;
   description: string;
   rate: number;
 }
