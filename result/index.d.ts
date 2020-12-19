@@ -7,3 +7,7 @@ interface ActionResult {
 interface LoginResult {
   token: string;
 }
+
+interface PhotoResult {
+  url: string;
+}
