@@ -15,6 +15,8 @@ interface SavedPlace {
   lat: number;
   lng: number;
   name: string;
+  description: string;
+  rate: number;
 }
 
 interface SavePlaceRequest {
@@ -23,10 +25,14 @@ interface SavePlaceRequest {
   lat: number;
   lng: number;
   name: string;
+  description: string;
+  rate: number;
 }
 
 interface SavePlaceRequestBody {
   lat: number;
   lng: number;
   name: string;
+  description: string;
+  rate: number;
 }
