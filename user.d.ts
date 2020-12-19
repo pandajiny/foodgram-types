@@ -1,5 +1,5 @@
-interface UserData {
-  user_id: string;
+interface User {
+  userId: string;
   name: string;
   email: string;
 }
