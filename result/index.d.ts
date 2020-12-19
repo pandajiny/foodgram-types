@@ -9,5 +9,5 @@ interface LoginResult {
 }
 
 interface PhotoResult {
-  url: string;
+  url: string | null;
 }
